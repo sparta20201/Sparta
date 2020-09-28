@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  require '../database.php';
+  require '../../pdatabase.php';
 
   if (isset($_SESSION['user_id'])) {
   	$records = $conn->prepare('SELECT * FROM administrador WHERE usuario = :usuario');

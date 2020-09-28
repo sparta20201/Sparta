@@ -137,8 +137,8 @@
 						              <td class="text-center"><?php echo $datosadmin['apellidos']; ?></td>
 						              <td class="text-center"><?php echo $datosadmin['usuario']; ?></td>
 						              <td class="text-center"><?php echo $datosadmin['telefono']; ?></td>
-									  <td class="text-center"><a href='actualizaradm.php?id=<?php echo $datosadmin['idadmin']; ?>' class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-									  <td class="text-center"><a href='eliminaradm.php?id=<?php echo $datosadmin['idadmin']; ?>' class="btn btn-danger btn-raised btn-xs" onclick="return confirm('¿Estas seguro que desea eliminar el registro con Cédula?\n <?php echo $datosadmin['cedula']; ?>');"><i class="zmdi zmdi-delete"></i></a></td>
+									  <td class="text-center"><a href='../php/actualizaradm.php?id=<?php echo $datosadmin['idadmin']; ?>' class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+									  <td class="text-center"><a href='../php/eliminar/eliminaradm.php?id=<?php echo $datosadmin['idadmin']; ?>' class="btn btn-danger btn-raised btn-xs" onclick="return confirm('¿Estas seguro que desea eliminar el registro con Cédula?\n <?php echo $datosadmin['cedula']; ?>');"><i class="zmdi zmdi-delete"></i></a></td>
 					              </tr>
 					               <?php 
 					               } 
